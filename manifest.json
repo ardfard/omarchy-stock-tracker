@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ardfard.stock-tracker",
+  "name": "Stock Tracker",
+  "version": "1.0.0",
+  "author": "ardfard",
+  "license": "MIT",
+  "description": "Track US (NYSE/NASDAQ) and Indonesian (IDX) stocks & indices live in the bar. Supports custom watchlists, Yahoo Finance data, auto-refresh.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Stock Tracker",
+    "description": "US + IDX stocks & indices ticker",
+    "category": "Finance",
+    "allowMultiple": false,
+    "defaultSection": "center",
+    "settingsForm": "stockTrackerSettings"
+  }
+}

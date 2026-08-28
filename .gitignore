@@ -1,0 +1,10 @@
+# Editor/OS noise
+.DS_Store
+*.swp
+*~
+
+# jj/git internals
+.jj/
+
+# Backups
+*.bak
