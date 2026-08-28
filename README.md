@@ -56,6 +56,20 @@ omarchy-shell shell hide    io.github.ardfard.stock-tracker
 
 Already have a clone via `omarchy plugin clone omarchy.clock --edit`? Just replace its `manifest.json`/`BarWidget.qml`/`Panel.qml`/`Model.js` with these files and keep the same ID.
 
+## Remove
+
+```bash
+omarchy plugin disable io.github.ardfard.stock-tracker
+omarchy plugin remove io.github.ardfard.stock-tracker
+# or, if `plugin remove` is unavailable on your Omarchy version:
+rm -rf ~/.config/omarchy/plugins/io.github.ardfard.stock-tracker
+omarchy shell shell rescanPlugins
+```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
 ---
 
 ## ⚙️ Configuration
